@@ -1,0 +1,12 @@
+body {
+  font-family: sans-serif;
+}
+
+div#viewer {
+  overflow-x: scroll;
+  width: 100%;
+}
+
+canvas#renderer {
+  display: none;
+}
