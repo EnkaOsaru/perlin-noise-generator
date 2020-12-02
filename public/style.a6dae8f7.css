@@ -1,2 +1,2 @@
-body{font-family:sans-serif}div#viewer{overflow-x:scroll;width:100%}canvas#renderer{display:none}
+*,:after,:before{margin:0;padding:0}body{display:grid;margin:1rem;font-family:sans-serif}form#interface{display:grid;grid-template-columns:repeat(2,1fr);gap:.5rem;justify-self:center;margin-bottom:2rem;max-width:300px}form#interface input[type=submit]{grid-column:2/3}div#viewer{overflow-x:scroll;justify-self:center;max-width:100%}div#viewer:before{content:"Result";display:block;margin-bottom:.5rem}canvas#renderer{display:none}
 /*# sourceMappingURL=/style.a6dae8f7.css.map */

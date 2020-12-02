@@ -5,6 +5,7 @@ const canvas = new Canvas('canvas#renderer');
 
 const form = document.querySelector('form');
 const viewer = document.querySelector('#viewer');
+const viewerImage = viewer.querySelector('#noise') as HTMLImageElement;
 
 form.addEventListener('submit', e => {
   e.preventDefault();
@@ -24,10 +25,7 @@ form.addEventListener('submit', e => {
     }
   });
 
-  const image = document.createElement('img');
-  image.src = canvas.canvas.toDataURL();
-  viewer.innerHTML = '';
-  viewer.append(image);
+  viewerImage.src = canvas.canvas.toDataURL();
 });
 
 function getFormValues(form: HTMLFormElement): (number | string)[] {
