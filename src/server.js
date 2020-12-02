@@ -6,4 +6,4 @@ app.use(express.static('public'));
 
 app.get('/', (req, res) => res.sendStatus(200));
 
-app.listen(6565);
+app.listen(process.env.PORT);
