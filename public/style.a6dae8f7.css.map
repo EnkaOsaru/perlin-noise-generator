@@ -1,0 +1,1 @@
+{"version":3,"sources":["scss/style.scss"],"names":[],"mappings":"AAAA,KACE,uBAGF,WACE,iBAAA,CACA,WAGF,gBACE","file":"style.a6dae8f7.css","sourceRoot":"../page","sourcesContent":["body {\n  font-family: sans-serif;\n}\n\ndiv#viewer {\n  overflow-x: scroll;\n  width: 100%;\n}\n\ncanvas#renderer {\n  display: none;\n}\n"]}

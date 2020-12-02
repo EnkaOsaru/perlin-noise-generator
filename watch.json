@@ -1,0 +1,13 @@
+{
+  "install": {
+    "include": [
+      ".install"
+    ]
+  },
+  "restart": {
+    "include": [
+      ".restart"
+    ]
+  },
+  "throttle": 1000
+}
