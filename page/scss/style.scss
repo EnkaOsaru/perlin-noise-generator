@@ -7,15 +7,19 @@
 
 body {
   display: grid;
+  justify-items: center;
   margin: 1rem;
   font-family: sans-serif;
+}
+
+h1#title {
+  margin-bottom: 2rem;
 }
 
 form#interface {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 0.5rem;
-  justify-self: center;
   margin-bottom: 2rem;
   max-width: 300px;
 
@@ -26,7 +30,6 @@ form#interface {
 
 div#viewer {
   overflow-x: scroll;
-  justify-self: center;
   max-width: 100%;
 
   &::before {
